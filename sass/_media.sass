@@ -1,11 +1,6 @@
 @media (max-width: 1200px)
     .header 
         background-size: 100%
-        &-body-title
-            font-size: 45px
-        &-body-subtitle
-            font-size: 17px
-
         &-body-subtitle::after
             display: none
 
@@ -51,8 +46,6 @@
 @media (max-width: 800px)
 
     .header 
-        &-body-title
-            font-size: 40px
         &-body-subtitle
             max-width: 350px
     .burger
@@ -71,6 +64,9 @@
             align-items: end
             ustify-content: center
 
-@media (max-width: 400px)
-    .header-body-text
-        text-align: center
+@media (max-width: 500px)
+    .about .about-inner div.about-text::after 
+        display: none 
+    .about-inner
+        justify-content: center
+

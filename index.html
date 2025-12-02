@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" id="home">
             
                 <div class="header-top">
                     <div class="burger">
@@ -27,37 +27,41 @@
                     </div>
                     <div class="burger-menu">
                         <nav class="burger-menu-nav">
-                            <a href="/" class="header-logo">
+                            <a href="#home" class="header-logo">
                                 <img src="img/Logofooter.svg" alt="logo">
                             </a>
-                            <li class="burger-menu-item">
-                                <a href="/">Главная</a>
-                            </li>
-                            <li class="burger-menu-item">
-                                <a href="/">О стиле</a>
-                            </li>
-                            <li class="burger-menu-item">
-                                <a href="/">Контакты</a>
-                            </li>
+                            <ul class=" burger-menu-list">
+                                <li class="burger-menu-item">
+                                    <a href="#home">Главная</a>
+                                </li>
+                                <li class="burger-menu-item">
+                                    <a href="#about">О стиле</a>
+                                </li>
+                                <li class="burger-menu-item">
+                                    <a href="#contact">Контакты</a>
+                                </li>
+                            </ul>
                         </nav>
 
                     </div>
                     <div class="container">
                         <div class="header-top-inner">
 
-                            <a href="/" class="header-logo">
+                            <a href="#home" class="header-logo">
                                 <img src="img/Logogeo.svg" alt="logo" class="logo">
                             </a>
                             <nav class="header-menu">
-                                <li class="header-menu-item">
-                                    <a href="/">Главная</a>
-                                </li>
-                                <li class="header-menu-item">
-                                    <a href="/">О стиле</a>
-                                </li>
-                                <li class="header-menu-item">
-                                    <a href="/">Контакты</a>
-                                </li>
+                                
+                                    <li class="header-menu-item">
+                                        <a href="#home">Главная</a>
+                                    </li>
+                                    <li class="header-menu-item">
+                                        <a href="#about">О стиле</a>
+                                    </li>
+                                    <li class="header-menu-item">
+                                        <a href="#contact">Контакты</a>
+                                    </li>
+                                
                             </nav>
                             <div></div>
                             </div>
@@ -81,7 +85,7 @@
                     </div>
                 </div>
             </header>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="container">
                     <div class="about-inner">
                         <div class="about-text">
@@ -140,7 +144,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="contact-inner">
                 <div class="container">
                     <h2 class="contact-title">
@@ -199,7 +203,7 @@
                 <div class="container">
                     <div class="footer-inner">
                         <div class="footer-col">
-                            <a href="/" class="footer-logo">
+                            <a href="#home" class="footer-logo">
                                 <img src="img/Logofooter.svg" alt="logo">
                             </a>
                             <svg width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -238,13 +242,13 @@
                             </h3>
                             <ul class="footer-nav">
                                 <li class="footer-item">
-                                    <a href="/" class="footer-linck">Главная</a>
+                                    <a href="#home" class="footer-linck">Главная</a>
                                 </li>
                                 <li class="footer-item">
-                                    <a href="/" class="footer-linck">О стиле</a>
+                                    <a href="#about" class="footer-linck">О стиле</a>
                                 </li>
                                 <li class="footer-item">
-                                    <a href="/" class="footer-linck">Контакты</a>
+                                    <a href="#contact" class="footer-linck">Контакты</a>
                                 </li>
                             </ul>
                         </div>
